@@ -8,7 +8,7 @@
 
 import Foundation
 
-class HalloweenImage {
+struct HalloweenImage {
     var imageName: String
     var tags: [String]
     init(imageName: String, tags: [String]) {

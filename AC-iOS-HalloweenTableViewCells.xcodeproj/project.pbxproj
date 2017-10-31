@@ -14,6 +14,8 @@
 		54FB4CC71FA8296F002141C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54FB4CC51FA8296F002141C7 /* LaunchScreen.storyboard */; };
 		54FB4CCF1FA82985002141C7 /* HalloweenImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FB4CCE1FA82985002141C7 /* HalloweenImage.swift */; };
 		54FB4CD11FA82C44002141C7 /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FB4CD01FA82C44002141C7 /* ImageData.swift */; };
+		C46957F71FA8F61500E03450 /* TopImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46957F61FA8F61500E03450 /* TopImageCell.swift */; };
+		C46957F91FA8F62300E03450 /* BottomImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46957F81FA8F62300E03450 /* BottomImageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		54FB4CC81FA8296F002141C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54FB4CCE1FA82985002141C7 /* HalloweenImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalloweenImage.swift; sourceTree = "<group>"; };
 		54FB4CD01FA82C44002141C7 /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
+		C46957F61FA8F61500E03450 /* TopImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopImageCell.swift; sourceTree = "<group>"; };
+		C46957F81FA8F62300E03450 /* BottomImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomImageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,7 @@
 		54FB4CD21FA8325E002141C7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C46957FA1FA8F62600E03450 /* Cells */,
 				54FB4CCE1FA82985002141C7 /* HalloweenImage.swift */,
 				54FB4CD01FA82C44002141C7 /* ImageData.swift */,
 			);
@@ -84,6 +89,15 @@
 				54FB4CC51FA8296F002141C7 /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C46957FA1FA8F62600E03450 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C46957F61FA8F61500E03450 /* TopImageCell.swift */,
+				C46957F81FA8F62300E03450 /* BottomImageCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +173,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				54FB4CBF1FA8296F002141C7 /* ViewController.swift in Sources */,
+				C46957F71FA8F61500E03450 /* TopImageCell.swift in Sources */,
+				C46957F91FA8F62300E03450 /* BottomImageCell.swift in Sources */,
 				54FB4CCF1FA82985002141C7 /* HalloweenImage.swift in Sources */,
 				54FB4CBD1FA8296F002141C7 /* AppDelegate.swift in Sources */,
 				54FB4CD11FA82C44002141C7 /* ImageData.swift in Sources */,
